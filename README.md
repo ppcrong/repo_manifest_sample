@@ -3,7 +3,8 @@ sample for git-repo manifest
 
 ## git-repo installation
 
-**(Ignore if git-repo is installed)**
+- following installation steps should be ok on **UBUNTU** and **WSL**.
+- for installtion on **Windows**, it should be similar but not yet tested, I will try it later and update soon...
 
 ```sh
 # create directory
@@ -29,3 +30,24 @@ repo version
 
 # it's ok to show <repo not installed> by 'repo version'
 ```
+
+## about git-repo manifest
+- [repo Manifest Format](https://gerrit.googlesource.com/git-repo/+/HEAD/docs/manifest-format.md)
+
+## revision usage in manifest
+- list remote references
+    ```
+    git ls-remote
+    8211fb0ac017b20057465ef4a011de2b2707f236	HEAD
+    8211fb0ac017b20057465ef4a011de2b2707f236	refs/heads/dev
+    5c866785fc35c9f65c437a971f20a5953480d1b6	refs/tags/v1.0
+    6e0fd1f7a9b5581e67cd1653b39524b2cae0499f	refs/tags/v2.0
+    ```
+- set tag
+    ```
+    <project name="cpp_main" remote="origin" path="apps/cpp_main" revision="refs/tags/    v2.0"/>
+    ```
+- set commit id
+    ```
+    <project name="cpp_main" remote="origin" path="apps/cpp_main"     revision="e5f149a90dc6147ab493bc037739dfe15b221259"/>
+    ```
