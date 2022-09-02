@@ -1,7 +1,7 @@
 # repo_manifest_sample
 sample for git-repo manifest
 
-## git-repo installation
+## 1. git-repo installation
 
 - following installation steps should be ok on **UBUNTU** and **WSL**.
 - for installtion on **Windows**, it should be similar but not yet tested, I will try it later and update soon...
@@ -31,10 +31,10 @@ repo version
 # it's ok to show <repo not installed> by 'repo version'
 ```
 
-## about git-repo manifest
+## 2. about git-repo manifest
 - [repo Manifest Format](https://gerrit.googlesource.com/git-repo/+/HEAD/docs/manifest-format.md)
 
-## revision usage in manifest
+## 3. revision usage in manifest
 - list remote references
     ```
     git ls-remote
@@ -45,7 +45,7 @@ repo version
     ```
 - set tag
     ```
-    <project name="cpp_main" remote="origin" path="apps/cpp_main" revision="refs/tags/    v2.0"/>
+    <project name="cpp_main" remote="origin" path="apps/cpp_main" revision="refs/tags/v2.0"/>
     ```
 - set commit id
     ```
