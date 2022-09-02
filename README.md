@@ -38,6 +38,4 @@ repo init -u git@github.com:ppcrong/repo_manifest_sample.git -m salmple.xml -b d
 >    * ppcrong/cpp_main
 >    * ppcrong/cpp_lib1
 >    * ppcrong/cpp_lib2
->    * ppcrong/cpp_lib3
->    * ppcrong/cpp_lib4
 
