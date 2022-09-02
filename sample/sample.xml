@@ -13,7 +13,5 @@
   <!-- libs -->
   <project name="cpp_lib1" remote="origin" path="libs/cpp_lib1"/>
   <project name="cpp_lib2" remote="origin" path="libs/cpp_lib2"/>
-  <project name="cpp_lib3" remote="origin" path="libs/cpp_lib3"/>
-  <project name="cpp_lib4" remote="origin" path="libs/cpp_lib4"/>
 
 </manifest>

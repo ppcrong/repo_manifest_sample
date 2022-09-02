@@ -32,7 +32,7 @@ repo version
 
 ## sample.xml
 ```sh
-repo init -u git@github.com:ppcrong/repo_manifest_sample.git -m salmple.xml -b dev --worktree
+repo init -u git@github.com:ppcrong/repo_manifest_sample.git -m sample/salmple.xml -b dev --worktree
 ```
 
 >    * ppcrong/cpp_main
