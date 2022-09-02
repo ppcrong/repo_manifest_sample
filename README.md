@@ -51,3 +51,21 @@ repo version
     ```
     <project name="cpp_main" remote="origin" path="apps/cpp_main"     revision="e5f149a90dc6147ab493bc037739dfe15b221259"/>
     ```
+
+## 4. init
+```repo init -u <URL> [<OPTIONS>]```
+- example
+
+    ```repo init -u git@github.com:ppcrong/repo_manifest_sample.git -m sample/sample.xml -b dev --worktree```
+
+## 5. get code
+```repo sync```
+
+## 6. start with branch
+- checkout all repos for dev branch
+
+    ```repo start dev --all```
+
+- checkout one of repos for dev branch
+
+    ```repo start dev app/cpp_main```
