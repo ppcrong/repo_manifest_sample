@@ -65,3 +65,12 @@ repo init -u git@github.com:ppcrong/repo_manifest_sample.git -m sample/sample_li
 >    * ppcrong/cpp_main (the latest commit)
 >    * ppcrong/cpp_lib1 (the latest commit)
 >    * ppcrong/cpp_lib2 (lib2-v6.0)
+
+## sample_main_e5f14.xml
+```sh
+repo init -u git@github.com:ppcrong/repo_manifest_sample.git -m sample/sample_main_e5f14.xml -b dev --worktree
+```
+
+>    * ppcrong/cpp_main (commit e5f149a90dc6147ab493bc037739dfe15b221259)
+>    * ppcrong/cpp_lib1 (the latest commit)
+>    * ppcrong/cpp_lib2 (the latest commit)

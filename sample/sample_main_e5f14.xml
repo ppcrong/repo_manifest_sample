@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin"
+           fetch=".." />
+
+  <default revision="refs/heads/dev"
+           remote="origin"
+           sync-j="4" />
+
+  <!-- apps -->
+  <project name="cpp_main" remote="origin" path="apps/cpp_main" revision="e5f149a90dc6147ab493bc037739dfe15b221259"/>
+
+  <!-- libs -->
+  <project name="cpp_lib1" remote="origin" path="libs/cpp_lib1"/>
+  <project name="cpp_lib2" remote="origin" path="libs/cpp_lib2"/>
+
+</manifest>
