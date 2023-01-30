@@ -17,10 +17,12 @@ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
 chmod a+rx ~/.bin/repo
 
 # open ~/.bashrc
-nano ~/.bashrc
+# nano ~/.bashrc
+# add export path to the end of bashrc
+# PATH="${HOME}/.bin:${PATH}"
 
 # add export path to the end of bashrc
-PATH="${HOME}/.bin:${PATH}"
+sudo echo "PATH=\"\${HOME}/.bin:\${PATH}\"" | sudo tee -a ~/.bashrc
 
 # take effect modified .bashrc
 source ~/.bashrc
